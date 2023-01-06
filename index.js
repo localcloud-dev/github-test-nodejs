@@ -4,7 +4,7 @@ const app = polka();
 //Checking if all microservices work
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  res.end(JSON.stringify({message:'hey github   ! :)'}));
+  res.end(JSON.stringify({message:'hey github, beeee   ! :)'}));
 });
       
 app.listen(4008, err => {
